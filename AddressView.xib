@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.Cocoa.XIB" version="3.0" toolsVersion="17701" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" customObjectInstantitationMethod="direct">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="17701"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <customObject id="-2" userLabel="File's Owner"/>
+        <customObject id="-1" userLabel="First Responder" customClass="FirstResponder"/>
+        <customObject id="-3" userLabel="Application" customClass="NSObject"/>
+        <customView identifier="Address Detail View" id="Mmn-Sw-5Ce">
+            <rect key="frame" x="0.0" y="0.0" width="489" height="142"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+            <subviews>
+                <box autoresizesSubviews="NO" fixedFrame="YES" borderType="line" title="Address" translatesAutoresizingMaskIntoConstraints="NO" id="Bc8-MG-rD4">
+                    <rect key="frame" x="-3" y="-4" width="495" height="146"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                    <view key="contentView" id="PH0-nE-MX2">
+                        <rect key="frame" x="3" y="3" width="489" height="126"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="kZ4-kK-5gf">
+                                <rect key="frame" x="18" y="103" width="102" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Type" id="4w1-AL-2WS">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="b9I-fu-fL8">
+                                <rect key="frame" x="18" y="74" width="102" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Street" id="d0D-KB-FQY">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Q66-WN-Tmi">
+                                <rect key="frame" x="18" y="43" width="102" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="Apt #" id="O7f-DR-R1g">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="iKx-r2-pxb">
+                                <rect key="frame" x="18" y="12" width="102" height="16"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" lineBreakMode="clipping" alignment="right" title="City / State / Zip" id="FsR-BG-9ux">
+                                    <font key="font" metaFont="system"/>
+                                    <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" tag="4001" translatesAutoresizingMaskIntoConstraints="NO" id="PEa-e3-BB0">
+                                <rect key="frame" x="129" y="97" width="153" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="Business" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="p42-bg-nFU" id="mbr-KG-An4">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="d1e-Ad-b8w">
+                                        <items>
+                                            <menuItem title="Business" state="on" id="p42-bg-nFU"/>
+                                            <menuItem title="Residential" id="GVm-Wd-Cak"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" tag="4002" translatesAutoresizingMaskIntoConstraints="NO" id="hxJ-hW-HnS">
+                                <rect key="frame" x="132" y="72" width="345" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="8jT-ci-7wA">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" tag="4003" translatesAutoresizingMaskIntoConstraints="NO" id="Noh-GW-701">
+                                <rect key="frame" x="132" y="41" width="345" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="mC4-Am-PmA">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" tag="4004" translatesAutoresizingMaskIntoConstraints="NO" id="0pJ-BT-K1j">
+                                <rect key="frame" x="132" y="10" width="183" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="bsm-1Y-3Yf">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                            <popUpButton verticalHuggingPriority="750" fixedFrame="YES" tag="4005" translatesAutoresizingMaskIntoConstraints="NO" id="PsJ-kv-geO">
+                                <rect key="frame" x="320" y="6" width="65" height="25"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <popUpButtonCell key="cell" type="push" title="Alabama" bezelStyle="rounded" alignment="left" lineBreakMode="truncatingTail" state="on" borderStyle="borderAndBezel" imageScaling="proportionallyDown" inset="2" selectedItem="djc-my-EqC" id="do7-2q-3UU">
+                                    <behavior key="behavior" lightByBackground="YES" lightByGray="YES"/>
+                                    <font key="font" metaFont="menu"/>
+                                    <menu key="menu" id="5I5-dZ-OXG">
+                                        <items>
+                                            <menuItem title="Alabama" state="on" id="djc-my-EqC"/>
+                                            <menuItem title="Alaska" id="BnL-0G-YiD"/>
+                                            <menuItem title="Arazona" id="cTO-Wx-6MU">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Arkansas" id="qYe-J7-Jrp"/>
+                                            <menuItem title="California" id="nLP-c1-NNT">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Colorado" id="ia5-RX-lTY"/>
+                                            <menuItem title="Connecticut" id="Amg-tF-QIE">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Delaware" id="cky-AZ-aj8">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="District of Columbia" id="O18-ob-7jK"/>
+                                            <menuItem title="Florida" id="ufG-II-TaZ">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Georgia" id="Fbn-5x-sl2"/>
+                                            <menuItem title="Hawaii" id="rWN-PT-QDW">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Idaho" id="Zfq-Sh-6lF"/>
+                                            <menuItem title="Illinois" id="Wzc-nN-qqD"/>
+                                            <menuItem title="Indiana" id="3W9-rG-TXW"/>
+                                            <menuItem title="Iowa" id="6SP-pO-gXx">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Kansas" id="JEA-gB-tiA">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Kentucky" id="drI-i9-amP">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Louisiana" id="Rzh-yg-WeL">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Maine" id="vEf-bD-YPc"/>
+                                            <menuItem title="Maryland" id="X6c-Xm-7QM"/>
+                                            <menuItem title="Massachusetts" id="9Sk-e1-7ut">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Michigan" id="8WR-Dj-VpI"/>
+                                            <menuItem title="Minnesota" id="jHM-vL-X23"/>
+                                            <menuItem title="Mississippi" id="WAh-CY-gns"/>
+                                            <menuItem title="Missouri" id="k7f-8W-fDc">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Montana" id="cyp-pE-bBe">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Nebraska" id="CP6-K3-QNT">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Nevada" id="wOO-g8-NJ6">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="New Hampshire" id="1vH-XW-uQW"/>
+                                            <menuItem title="New Jersey" id="U5y-fu-5Rr"/>
+                                            <menuItem title="New Mexico" id="S3c-vM-Oxh">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="New York" id="8ZV-f8-ZLy"/>
+                                            <menuItem title="North Carolina" id="jH5-DB-pVh"/>
+                                            <menuItem title="North Dakoda" id="fGC-wJ-9mX"/>
+                                            <menuItem title="Ohio" id="mxh-FS-6N2">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Oklahoma" id="S3p-3i-qwg">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Oregon" id="QYY-zz-Nsf"/>
+                                            <menuItem title="Pennsylvania" id="cKp-4z-nri"/>
+                                            <menuItem title="Rhode Island" id="Maf-k4-ho1"/>
+                                            <menuItem title="South Carolina" id="so3-P8-nAw"/>
+                                            <menuItem title="South Dakoda" id="x5F-AF-qHu">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Tennessee" id="r48-jQ-v87"/>
+                                            <menuItem title="Texas" id="fBb-SP-a33"/>
+                                            <menuItem title="Utah" id="LxE-zL-xHl"/>
+                                            <menuItem title="Vermont" id="hsN-Zg-GWD">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Virginia" id="ZrH-NC-2d9">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Washington" id="Ec4-7y-xwE"/>
+                                            <menuItem title="West Virginia" id="M4T-nu-R3Q"/>
+                                            <menuItem title="Wisconsin" id="nhw-Ew-M12"/>
+                                            <menuItem title="Wyoming" id="NoF-Qo-s7g"/>
+                                            <menuItem isSeparatorItem="YES" id="IOP-8P-HXs"/>
+                                            <menuItem title="American Samoa" id="MgA-xM-yfV"/>
+                                            <menuItem title="Guam" id="2R6-9g-EfJ"/>
+                                            <menuItem title="Marshall Islands" id="SJG-CY-ZcQ"/>
+                                            <menuItem title="Micronesia" id="0ae-kd-ZRi">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="North Marianas" id="umN-lf-oR3">
+                                                <modifierMask key="keyEquivalentModifierMask"/>
+                                            </menuItem>
+                                            <menuItem title="Palau" id="V35-sF-eBx"/>
+                                            <menuItem title="Puerto Rico" id="FEg-dI-dzS"/>
+                                            <menuItem title="Virgin Islands" id="idt-Wf-or5"/>
+                                        </items>
+                                    </menu>
+                                </popUpButtonCell>
+                            </popUpButton>
+                            <textField verticalHuggingPriority="750" fixedFrame="YES" tag="4006" translatesAutoresizingMaskIntoConstraints="NO" id="09W-qt-w4W">
+                                <rect key="frame" x="389" y="10" width="88" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
+                                <textFieldCell key="cell" scrollable="YES" lineBreakMode="clipping" selectable="YES" editable="YES" sendsActionOnEndEditing="YES" borderStyle="bezel" drawsBackground="YES" id="F8N-Ts-YAN">
+                                    <font key="font" usesAppearanceFont="YES"/>
+                                    <color key="textColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
+                                    <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                </textFieldCell>
+                            </textField>
+                        </subviews>
+                    </view>
+                    <font key="titleFont" metaFont="system"/>
+                </box>
+            </subviews>
+            <point key="canvasLocation" x="-180.5" y="211"/>
+        </customView>
+    </objects>
+</document>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Base64Utils.incl</key>
+	<string>{{0, 281}, {560, 744}}</string>
+	<key>DataObject.glbl</key>
+	<string>{{379, 111}, {693, 914}}</string>
+	<key>DataObject.incl</key>
+	<string>{{866, 54}, {926, 959}}</string>
+	<key>DataObject_Super.incl</key>
+	<string>{{616, 108}, {976, 890}}</string>
+	<key>EventHandlers.incl</key>
+	<string>{{429, 51}, {1189, 965}}</string>
+	<key>Menus.incl</key>
+	<string>{{116, 165}, {560, 744}}</string>
+	<key>SQLite Interface.incl</key>
+	<string>{{637, 110}, {1105, 907}}</string>
+	<key>SQLite3 Demo.incl</key>
+	<string>{{438, 76}, {1147, 930}}</string>
+	<key>SQLite3_CRM.incl</key>
+	<string>{{407, 61}, {1324, 968}}</string>
+	<key>SQLite3_Super.incl</key>
+	<string>{{429, 101}, {831, 943}}</string>
+	<key>Test Xib View.fbeproj</key>
+	<string>{{156, 267}, {253, 762}}</string>
+	<key>Test Xib View.main</key>
+	<string>{{0, 281}, {560, 744}}</string>
+	<key>Tlbx SQLite3.incl</key>
+	<string>{{576, 86}, {920, 930}}</string>
+	<key>Windows.incl</key>
+	<string>{{570, 120}, {1041, 867}}</string>
+	<key>myGlobals.glbl</key>
+	<string>{{1115, 230}, {560, 744}}</string>
+</dict>
+</plist>

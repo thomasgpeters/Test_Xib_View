@@ -1,0 +1,102 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXFileReference section */
+		D41A88B52A6E95B7006BFBB9 /* SegmentedButtons.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SegmentedButtons.xib; sourceTree = "<group>"; };
+		D41A88B62A6E95B7006BFBB9 /* ButtonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ButtonView.xib; sourceTree = "<group>"; };
+		D41A88B72A6E95B7006BFBB9 /* Toolbar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Toolbar.xib; sourceTree = "<group>"; };
+		D41A88B82A6E95B7006BFBB9 /* ContactListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactListView.xib; sourceTree = "<group>"; };
+		D41A88B92A6E95B7006BFBB9 /* LeadsNamesTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LeadsNamesTableView.xib; sourceTree = "<group>"; };
+		D41A88BA2A6E95B7006BFBB9 /* AddressView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressView.xib; sourceTree = "<group>"; };
+		D41A88BB2A6E95B7006BFBB9 /* ContactList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactList.xib; sourceTree = "<group>"; };
+		D41A88BC2A6E95B7006BFBB9 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainWindow.xib; sourceTree = "<group>"; };
+		D41A88BD2A6E95B7006BFBB9 /* SalesNamesTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SalesNamesTableView.xib; sourceTree = "<group>"; };
+		D41A88BE2A6E95B7006BFBB9 /* PersonView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PersonView.xib; sourceTree = "<group>"; };
+		D41A88BF2A6E95B7006BFBB9 /* AddressListView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressListView.xib; sourceTree = "<group>"; };
+		D41A88C02A6E95B7006BFBB9 /* OpportunitiesNamesTableView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OpportunitiesNamesTableView.xib; sourceTree = "<group>"; };
+		D41A88C12A6E95B7006BFBB9 /* AddressList.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddressList.xib; sourceTree = "<group>"; };
+		D41A88C22A6E95B7006BFBB9 /* ContactView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactView.xib; sourceTree = "<group>"; };
+		D41A88C32A6E95B7006BFBB9 /* PreferencesView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PreferencesView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		D41A88AE2A6E955A006BFBB9 = {
+			isa = PBXGroup;
+			children = (
+				D41A88C12A6E95B7006BFBB9 /* AddressList.xib */,
+				D41A88BF2A6E95B7006BFBB9 /* AddressListView.xib */,
+				D41A88BA2A6E95B7006BFBB9 /* AddressView.xib */,
+				D41A88B62A6E95B7006BFBB9 /* ButtonView.xib */,
+				D41A88BB2A6E95B7006BFBB9 /* ContactList.xib */,
+				D41A88B82A6E95B7006BFBB9 /* ContactListView.xib */,
+				D41A88C22A6E95B7006BFBB9 /* ContactView.xib */,
+				D41A88B92A6E95B7006BFBB9 /* LeadsNamesTableView.xib */,
+				D41A88BC2A6E95B7006BFBB9 /* MainWindow.xib */,
+				D41A88C02A6E95B7006BFBB9 /* OpportunitiesNamesTableView.xib */,
+				D41A88BE2A6E95B7006BFBB9 /* PersonView.xib */,
+				D41A88C32A6E95B7006BFBB9 /* PreferencesView.xib */,
+				D41A88BD2A6E95B7006BFBB9 /* SalesNamesTableView.xib */,
+				D41A88B52A6E95B7006BFBB9 /* SegmentedButtons.xib */,
+				D41A88B72A6E95B7006BFBB9 /* Toolbar.xib */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		D41A88AF2A6E955A006BFBB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+			};
+			buildConfigurationList = D41A88B22A6E955A006BFBB9 /* Build configuration list for PBXProject "Test Xib View" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D41A88AE2A6E955A006BFBB9;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		D41A88B32A6E955A006BFBB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		D41A88B42A6E955A006BFBB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D41A88B22A6E955A006BFBB9 /* Build configuration list for PBXProject "Test Xib View" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D41A88B32A6E955A006BFBB9 /* Debug */,
+				D41A88B42A6E955A006BFBB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41A88AF2A6E955A006BFBB9 /* Project object */;
+}

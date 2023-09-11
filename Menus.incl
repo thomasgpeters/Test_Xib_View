@@ -1,0 +1,1 @@
+void local fn BuildMenu'~'1// build File menumenu _mFile,,, @"File"menu _mFile, _iClose,, @"Close", @"w"MenuItemSetAction( _mFile, _iClose, @"performClose:" )// build Hello menu' menu _mHello,,, @"Hello"' menu _mHello, _iSayHello,, @"Say Hello", @"l"end fn
