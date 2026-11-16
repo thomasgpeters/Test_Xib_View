@@ -6,7 +6,7 @@ by [Api_Logic_Client](https://github.com/thomasgpeters/Api_Logic_Client) follow,
 and the test bed for FB 7.1.x fixes.
 
 ## Rules
-Follow Api_Logic_Client's `CLAUDE.md` and `docs/FB Coding Rules.md` — they are
+Follow Api_Logic_Client's `CLAUDE.md` and `docs/reference/FB Coding Rules.md` — they are
 the shared rules for all of the author's FB code. In short: typed return values,
 `//` comments (never `'` or `'~'1`), no `#build` in projects, view tags not
 window tags, verify toolbox names in FutureBasic_Documentation's headers, CR
