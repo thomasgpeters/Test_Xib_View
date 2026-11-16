@@ -23,8 +23,16 @@ python3 ../Api_Logic_Client/tools/fblint.py --headers ../FutureBasic_Documentati
 - `Database/` — `schema.sql` and `seed.sql` are the source of truth for the
   tables and sample data; `build_db.py` rebuilds `contacts.sqlite` from them or
   from an ALS model (`--als`). Keep `CreateEmptySQLDatabase` in step with `schema.sql`.
-- Queries are built with the DataObject query builder (`DataObject*.incl`) and
-  must match `schema.sql`.
+- SQL is built with the DataObject query builder and must match `schema.sql`:
+  - describe the statement: `InitQueryDictionary` / `InitInsertIntoDictionary` /
+    `InitUpdateDictionary` / `InitDeleteFromDictionary`, then `AddTableTo…`,
+    `AddColumnTo…`, `AddFilterToQuery` (alias `@""` for UPDATE/DELETE), `AddAssociationToQuery` (joins)
+  - generate: `GenerateSelectSQL` / `GenerateInsertIntoSQL` / `GenerateUpdateSQL` /
+    `GenerateDeleteFromSQL` (`DataObject.incl`; parameterized, UPDATE/DELETE need a filter)
+  - run: `BuildPreparedStatement_Select` + `ExecutePreparedStatement`, or
+    `ExecuteInsert` (new id) / `ExecuteUpdate` / `ExecuteDelete` (rows changed) in `SQLite Interface.incl`
+  - example: the person functions in `SQLite3_CRM.incl` (`SelectAllPersonQuery`,
+    `InsertPersonRecord`, `UpdatePersonRecord`, `DeletePersonRecord`).
 - Functions that use a `contacts` table (`LoadInitialData`, `FindContact`, the
   `SQLite3_Super` helpers, `AddAddressRecord`) are leftover demo code with no
   callers; that table is not in the schema.
