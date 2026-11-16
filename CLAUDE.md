@@ -33,7 +33,7 @@ python3 ../Api_Logic_Client/tools/fblint.py --headers ../FutureBasic_Documentati
     `ExecuteInsert` (new id) / `ExecuteUpdate` / `ExecuteDelete` (rows changed) in `SQLite Interface.incl`
   - example: the person functions in `SQLite3_CRM.incl` (`SelectAllPersonQuery`,
     `InsertPersonRecord`, `UpdatePersonRecord`, `DeletePersonRecord`).
-- Functions that use a `contacts` table (`LoadInitialData`, `FindContact`, the
-  `SQLite3_Super` helpers, `AddAddressRecord`) are leftover demo code with no
-  callers; that table is not in the schema.
+- Obsolete demo code is removed once nothing references it (find unreferenced
+  functions with a call graph from the main program, the `on appevent/menu/dialog`
+  handlers and `@fn` callbacks).
 - Work on `claude/dazzling-darwin-awec2o`; the author builds on a Mac and merges via pull requests.
