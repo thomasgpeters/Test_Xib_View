@@ -1,3 +1,4 @@
 .DS_Store
 build_temp_Test_Xib_View/
-*.app/
+*.app/Database/*.bak
+Database/*.sqlite-journal
