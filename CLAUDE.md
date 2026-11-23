@@ -31,6 +31,10 @@ python3 ../Api_Logic_Client/tools/fblint.py --headers ../FutureBasic_Documentati
     `GenerateDeleteFromSQL` (`DataObject.incl`; parameterized, UPDATE/DELETE need a filter)
   - run: `BuildPreparedStatement_Select` + `ExecutePreparedStatement`, or
     `ExecuteInsert` (new id) / `ExecuteUpdate` / `ExecuteDelete` (rows changed) in `SQLite Interface.incl`
+  - names are quoted in the generated SQL (`QuoteSQLName`: `Order` -> `"Order"`, `a.id` ->
+    `"a"."id"`; already-quoted names such as `'Given Name'` are kept)
+  - the builder files are shared with Api_Logic_Client's `src/Runtime/` (its data runtime):
+    keep both copies identical, and fix them in both repos
   - example: the person functions in `SQLite3_CRM.incl` (`SelectAllPersonQuery`,
     `InsertPersonRecord`, `UpdatePersonRecord`, `DeletePersonRecord`).
 - Obsolete demo code is removed once nothing references it (find unreferenced
